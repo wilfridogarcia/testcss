@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Test PureCSS</title>
+    <link rel="stylesheet" href="../bower_components/pure/pure-min.css" />
+    <link rel="stylesheet" href="../bower_components/pure/base-min.css" />
+    <link rel="stylesheet" href="../bower_components/pure/grids-responsive-min.css" />
+
+
+    <!-- Own Styles -->
+    <link  rel="stylesheet/less" type="text/css" href="assets/css/test.less" />
+
+    <script src="../bower_components/less/dist/less.min.js"></script>
+</head>
+<body>
+<header class="pure-g" id="header">
+        <div class="pure-u-1 pure-u-md-1-3">
+            <h1 class="titulo">Barcelona</h1>
+        </div>
+        <div class="pure-u-1 pure-u-md-2-3 sign-in">
+            <form class="pure-form sign-in">
+                <fieldset>
+
+                    <input type="email" placeholder="Email">
+                    <input type="password" placeholder="Password">
+
+                    <button type="submit" class="pure-button">Sign in</button>
+                </fieldset>
+            </form>
+        </div>
+</header>
+<div class="pure-g">
+     <!-- sidebar izquierda -->
+    <aside class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-5" id="sidebar-left">
+
+        <div class="pure-menu custom-restricted-width">
+            <span class="pure-menu-heading">Yahoo Sites</span>
+
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item"><a href="#" class="pure-menu-link">Flickr</a></li>
+                <li class="pure-menu-item"><a href="#" class="pure-menu-link">Messenger</a></li>
+                <li class="pure-menu-item"><a href="#" class="pure-menu-link">Sports</a></li>
+                <li class="pure-menu-item"><a href="#" class="pure-menu-link">Finance</a></li>
+                <li class="pure-menu-heading">More Sites</li>
+                <li class="pure-menu-item"><a href="#" class="pure-menu-link">Games</a></li>
+                <li class="pure-menu-item"><a href="#" class="pure-menu-link">News</a></li>
+                <li class="pure-menu-item"><a href="#" class="pure-menu-link">OMG!</a></li>
+            </ul>
+        </div>
+    </aside>
+    <!-- contenido -->
+    <div class="pure-u-1 pure-u-md-1-3 pure-u-lg-3-5" id="centro">
+
+        <img class="pure-img" src="http://incubio.com/wp-content/uploads/2015/06/yourfacehere.png" />
+        <p>Sed tincidunt purus ac ante rhoncus, nec gravida ante egestas. Morbi aliquam, mauris vitae aliquet interdum, nunc felis bibendum lacus, non efficitur erat leo a ante. Vestibulum elementum scelerisque tellus, at ultrices urna lobortis eget. Nulla gravida vestibulum pretium. Curabitur ut magna nec eros bibendum ultricies. Phasellus id gravida urna. Aliquam erat volutpat. Integer malesuada imperdiet bibendum. Nulla ultrices ipsum ac tellus porta, id pretium metus ultricies. Etiam viverra lacus sed quam condimentum blandit. Aenean augue lacus, tincidunt a mauris suscipit, tincidunt sagittis metus. Morbi volutpat, massa et laoreet consequat, velit mi posuere neque, eget fermentum lacus turpis eget augue. Nulla facilisi.</p>
+        <p>Curabitur congue auctor scelerisque. Aenean eu diam ac urna laoreet varius non ac massa. Nulla ante risus, molestie a erat sit amet, cursus finibus ligula. Curabitur blandit sit amet lectus vitae facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas suscipit mattis ipsum, vel tincidunt tortor suscipit eget. Suspendisse porttitor ex et ipsum fringilla, et commodo nunc eleifend. Aenean egestas pharetra nunc, id pharetra dolor interdum ut. Praesent at tristique turpis, et imperdiet nulla. Nunc feugiat nulla rutrum metus elementum dictum. Proin vel semper tortor. Vivamus eu odio felis.</p>
+
+        <div class="pure-g">
+            <div class="pure-u-1-2"><img class="pure-img" src="http://incubio.com/wp-content/uploads/2015/06/Startup-Incubator.jpg" /></div>
+            <div class="pure-u-1-2"><img class="pure-img" src="http://incubio.com/wp-content/uploads/2015/04/Seedcamp.jpg" /></div>
+        </div>
+
+        <p>Nullam neque metus, pharetra sed maximus nec, auctor a odio. Nulla at ante elit. Etiam non congue felis. Integer lorem mauris, ullamcorper quis augue vel, porta blandit erat. Proin a metus molestie ex tempor consequat. Vivamus neque magna, pulvinar dignissim ante eget, suscipit convallis ligula. Phasellus sit amet ex massa. Nunc in ligula elit. Cras luctus auctor fringilla. Donec feugiat turpis non mi congue, eu pulvinar tellus pulvinar. Curabitur mattis ipsum ante, et porttitor arcu mattis cursus.</p>
+    </div>
+    <!-- sidebar derecha -->
+    <aside class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-5" id="derecha">
+
+    </aside>
+</div>
+<div class="pure-g">
+    <footer class="pure-u-1">
+        <p>Footer</p>
+    </footer>
+</div>
+
+</body>
+</html>

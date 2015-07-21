@@ -1,0 +1,63 @@
+.custom-restricted-width {
+    /* To limit the menu width to the content of the menu: */
+    display: inline-block;
+    /* Or set the width explicitly: */
+    /* width: 10em; */
+}
+
+.l-box {
+//padding: 1em;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+
+.pure-menu-heading { font-weight: bold; }
+
+// Variables
+@link-color:        #428bca;
+@link-color-hover:  darken(@link-color, 10%);
+
+// Usage
+   a, .link {
+
+       color: @link-color;
+
+:hover {
+    color: @link-color-hover;
+}
+}
+
+header {
+
+.formulario {
+    text-align: right;
+
+form {
+
+
+}
+}
+
+}
+
+.pure-g {
+
+}
+.contenido {
+    background-color: #f5f5f5;
+    padding-top: 30px;
+}
+.central {
+
+    padding-bottom: 30px;
+
+p {
+    text-align: justify;
+    line-height: 1.8em;
+}
+}
+
+
+footer {
+
+}
